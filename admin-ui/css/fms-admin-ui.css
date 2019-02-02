@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+/* CHANGE ADMIN MENU COLOURING */
+
+#adminmenu li#menu-posts-fms_listing:hover,
+#adminmenu li#menu-posts-fms_listing a:hover,
+#adminmenu li#menu-posts-fms_listing a:focus,
+#adminmenu li#menu-posts-fms_listing.opensub > a.menu-top {
+	
+	color:					#de4d1a;
+}
+#adminmenu li#menu-posts-fms_listing a div.dashicons-before {
+	
+	padding:				0px;
+	opacity: 				0.6;
+	background-image:		url("../../lib/icons/retriever.png");
+	
+	transition:				all 0.05s ease-in-out;
+	-webkit-transition:		all 0.05s ease-in-out;
+}
+#adminmenu li#menu-posts-fms_listing:hover div.dashicons-before,
+#adminmenu li#menu-posts-fms_listing a:hover div.dashicons-before,
+#adminmenu li#menu-posts-fms_listing a:focus div.dashicons-before,
+#adminmenu li#menu-posts-fms_listing.opensub > a.menu-top div.dashicons-before {
+	
+	padding:				0px;
+	opacity: 				1;
+	background-image:		url("../../lib/icons/retriever-orange.png");	
+}
+#adminmenu li#menu-posts-fms_listing a.wp-has-current-submenu {
+	
+	background: 			#de4d1a	!important;
+	color:					#fff	!important;
+}
+#adminmenu li#menu-posts-fms_listing a.wp-has-current-submenu div.dashicons-before {
+	
+	padding:				0px										!important;
+	opacity: 				1										!important;
+	background-image:		url("../../lib/icons/retriever.png") 	!important;
+}
+
+/* OPTIONS PAGE */
+div#accessor-options form {
+	
+	margin-bottom: 			2rem;
+}
+h1 img {
+	
+	display: 				inline-block;
+	vertical-align: 		middle;
+	margin-top: 			-5px;
+}
+h2.nav-tab-wrapper {
+	
+	margin-bottom: 			1.5rem !important;
+}
+div.nav-tab-section {
+	
+	display: 				none;
+}
+/*div#sync-controls*/ div.fms-options-section {
+	
+	margin-bottom: 			1.5rem !important;
+	/*padding-bottom: 		1.5rem !important;*/
+}
+div#sync-controls {
+	
+	/*margin-top:				2rem;*/
+}
+div.fms-options-section ol {
+	
+	margin-bottom: 			1.5rem !important;
+}
+div#fetch-output, div#member-fetch-output, div#national-fetch-output {
+	
+	white-space: 			pre;
+}
+
+/* PHOTO BOX CONTROLS */
+
+div#fms-photo-metabox div.inside {
+	
+	margin:					0px;
+	padding:				6px;
+}
+div.fms-admin-photo-manager {
+	
+	font-size: 				0px;
+}
+div.fms-admin-photo-manager::after {
+
+	content: 				"";
+	display: 				block;
+	clear: 					both;	
+}
+div.fms-admin-photo-card {
+	
+	width:					200px;
+	height:					200px;
+	margin:					6px;
+	float:					left;
+	background-color: 		#e9e9e9;
+	border:					1px solid #e9e9e9;
+}
+div.fms-admin-photo-card div.interior {
+
+	width:					100%;
+	height:					100%;
+	position: 				relative;
+	background-color: 		#fff;	
+}
+div.fms-admin-photo-card div.interior div.handle {
+	
+	width:					100%;
+	height:					30px;
+	position:				relative;
+	cursor: 				move;
+	border-bottom: 			1px solid #e9e9e9;
+}
+div.fms-admin-photo-card div.interior div.body {
+	
+	width:					100%;
+	height:					calc(100% - 30px);
+	position:				relative;
+}
+div.fms-admin-photo-card div.interior div.lead-cover,
+div.fms-admin-photo-card div.interior div.body div.hidden-cover {
+	
+	width:					100%;
+	height:					100%;
+	position:				absolute;
+	top:					0px;
+	left:					0px;
+	background-color:		#000;
+	opacity:				0.8;
+	display:				none;
+}
+div.fms-admin-photo-card div.interior div.lead-cover {
+	
+	display:				block;
+}
+div.fms-admin-photo-card div.interior div.lead-cover > span,
+div.fms-admin-photo-card div.interior div.body div.hidden-cover > span {
+
+	width:					100%;
+	display:				block;
+	text-align: 			center;	
+	font-size: 				20px;
+	color: 					#fff;
+	text-transform: 		uppercase;
+	font-weight: 			bold;
+	opacity:				0.2;
+	position:				absolute;
+	top:					50%;
+	transform: 				translateY(-50%);
+	-webkit-transform:		translateY(-50%);
+}
+div.fms-admin-photo-card div.interior div.lead-photo,
+div.fms-admin-photo-card div.interior div.body div.photo {
+	
+	width:					100%;
+	height:					100%;
+	background-position: 	center center;
+	background-repeat: 		no-repeat;
+	background-size: 		cover;
+}
+div.fms-admin-photo-card.add-photo {
+	
+	cursor:					pointer;
+}
+div.photo-add-icon {
+	
+	width:					100%;
+	text-align: 			center;
+	position:				absolute;
+	top:					50%;
+	transform: 				translateY(-50%);
+	-webkit-transform:		translateY(-50%);
+}
+div.photo-add-icon > i {
+
+	font-size: 				80px;
+	color:					#e9e9e9;
+}
+div.fms-admin-photo-card div.img-control-btn {
+	
+	width: 					30px;
+	height: 				30px;
+	text-align: 			center;
+	position: 				absolute;
+	top: 					0px;
+	right: 					0px;
+	cursor: 				pointer;
+	display: 				none;
+}
+div.fms-admin-photo-card div.img-control-btn > i {
+	
+	line-height: 			30px;
+	font-size: 				15px;
+}
+
+/* CMB OPTIONS FORM */
+form.cmb-form h1 {
+	
+	margin-bottom:			1.5rem;
+}

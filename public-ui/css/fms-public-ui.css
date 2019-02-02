@@ -1,0 +1,693 @@
+@charset "UTF-8";
+
+
+/* CUSTOM ICON FONT LIB */
+
+@font-face {
+	
+	font-family: 	"firstlookregular";
+    src: 			url("lib/fonts/firstlook-regular/firstlook-regular.eot");
+}
+
+/* CONTAINERS */
+
+div#fms-listing-template {
+	
+}
+div#fms-listing-template * {
+	
+	box-sizing: 			border-box;
+}
+
+/* IMAGE AND LEAD PHOTO STUFF */
+
+div#fms-listing-template img,
+div#fms-listing-template img:hover,
+div#fms-listing-template a img {
+	
+	border: 				none;
+	-webkit-box-shadow: 	none;
+	-moz-box-shadow: 		none;
+	box-shadow: 			none;
+	margin:					0px;
+}
+div#fms-listing-template img.fms-lead-photo {
+	
+	margin-bottom:			1.5rem;	
+	display:				block;
+	width:					100%;
+	height:					auto;
+	box-sizing: 			border-box;
+	border:					1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* PAGE SECTIONS */
+
+div#fms-listing-template div.fms-template-section {
+	
+	width:					100%;
+	height:					auto;
+	position:				relative;
+	margin-bottom: 			2rem;
+	box-sizing: 			border-box;
+}
+div#fms-listing-template div.fms-template-section:first-child { 
+	
+	margin-top: 			0px !important; 
+	margin-left: 			0px !important; 
+}
+div#fms-listing-template a.fms-link-wrapper, 
+div#fms-listing-template a.fms-link-wrapper:hover {
+	
+	display: 				inline-block;
+	text-decoration: 		none;
+	border:					none;
+	box-shadow: 			none;
+	-moz-box-shadow:		none;
+	-webkit-box-shadow:		none;
+}
+div#fms-listing-template div.fms-h-group {
+	
+	font-size: 				0px;
+	display:				inline-block;
+}
+div#fms-listing-template div.fms-h-group *.fms-stat {
+	
+	display:				inline-block;
+	vertical-align: 		middle;
+	text-align: 			left;
+}
+
+/* STAT ELEMENTS  */
+
+div#fms-listing-template *.fms-stat {
+	
+	font-size: 				1rem;
+	line-height: 			1.5rem;
+	margin:					0px;
+	display:				block;
+}
+div#fms-listing-template *.fms-stat.price {
+	
+	font-size: 				2.5rem;
+	line-height: 			3rem;
+	margin-bottom:			1rem;
+	margin-right:			1.5rem;
+}
+div#fms-listing-template *.fms-stat.status {
+	
+	font-size: 				1.5rem;
+	line-height: 			2rem;
+	margin-bottom:			1rem;
+	
+	padding: 				5px 10px 5px 10px;
+	border: 				1px solid;
+}
+div#fms-listing-template *.fms-stat.location {
+	
+}
+div#fms-listing-template *.fms-stat.bedbath {
+	
+}
+div#fms-listing-template *.fms-stat.mls {
+	
+}
+
+/* LISTING DATA TABLES */
+
+div#fms-listing-template table.fms-data-table {
+	
+	width:					100%;
+	border:					none;
+	outline:				1px solid rgba(0, 0, 0, 0.1);
+}
+div#fms-listing-template table.fms-data-table tbody, 
+div#fms-listing-template table.fms-data-table thead {
+	
+	width:					100%;
+}
+div#fms-listing-template table.fms-data-table tr {
+	
+	width:					100%;
+	border:					none;
+}
+div#fms-listing-template table.fms-data-table tr:nth-child(odd) {
+	
+	background-color: rgba(0, 0, 0, 0.05);
+}
+div#fms-listing-template table.fms-data-table td {
+	
+	padding-left: 			20px;
+	padding-right: 			20px;
+	padding-top: 			10px;
+	padding-bottom: 		10px;
+	border:					none !important;	
+}
+div#fms-listing-template table.fms-data-table td.half {
+	
+	width: 					50%;
+}
+div#fms-listing-template table.fms-data-table td.third {
+	
+	width: 					33.333333%;
+}
+
+/* LISTING PHOTOS (COMPONENT) - THE INLINE PHOTO STRIP */
+
+div#fms-photo-box {
+	
+	width:					100%;
+	height:					auto;
+	overflow: 				hidden;
+	box-sizing: 			border-box;
+	background-color: 		rgba(0, 0, 0, 0.05);
+	border:					1px solid rgba(0, 0, 0, 0.1);
+	
+	-moz-background-clip: 		padding;
+	-webkit-background-clip: 	padding; 
+	background-clip: 			padding-box;
+}
+div#fms-photo-box img {
+	
+	display:				block;
+	width:					100%;
+	height:					auto;						
+	box-sizing: 			border-box;
+}
+div#fms-photo-box div.fms-photo-strip {
+	
+	height:					150px;
+	width: 					100%;
+	overflow: 				hidden;						
+	position: 				relative;
+	box-sizing: 			border-box;
+}
+div#fms-photo-box div.fms-photo-scroller {
+	
+	height:					150px;
+	width:					auto;
+	position:				relative;
+	font-size: 				0px;
+	white-space: 			nowrap;
+	overflow-x: 			auto;
+	overflow-y:				hidden;
+	z-index: 				0;
+	
+	-webkit-overflow-scrolling: touch;
+}
+div#fms-photo-box div.fms-photo-scroller div.fms-photo {
+	
+	display:				inline-block;
+	position:				relative;
+	height:					100%;
+	width:					200px;
+	background-size: 		cover;
+	background-position: 	center center;
+	background-repeat: 		no-repeat;
+	margin-right:			1px;
+}
+div#fms-photo-box div.fms-photo-scroller div.fms-photo::after {
+
+	content:				"";
+	display:				block;
+	position:				absolute;
+	top:					0px;
+	right:					0px;
+	bottom:					0px;
+	left:					0px;						
+	background-color: 		#000;
+	opacity: 				0;						
+	-webkit-transition:		all 0.5s;
+	-moz-transition:		all 0.5s;
+	transition: 			all 0.5s;
+}
+div#fms-photo-box div.fms-photo-scroller div.fms-photo:hover:after {
+	
+	opacity:				0.5;
+}
+div#fms-photo-box i.strip-nav {
+	
+	display:				block;
+	z-index:				1;
+	width:					40px;
+	height: 				150px;
+	font-size: 				40px;
+	line-height: 			150px;
+	text-align: 			center;
+	position: 				absolute;
+	top:					0px;
+	bottom:					0px;
+	cursor:					pointer;
+	color:					#fff;
+	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+div#fms-photo-box i#strip-prev {
+	
+	left:					0px;
+}
+div#fms-photo-box i#strip-next {
+	
+	right:					0px;
+}
+
+/* LISTING PHOTOS (COMPONENT) - THE LIGHTBOX PHOTO VIEWER */
+
+div#fms-photo-viewer {
+							
+	position:				fixed;
+	top: 					0px;
+	bottom: 				0px;
+	left: 					0px;
+	right: 					0px;
+	visibility: 			hidden;
+	opacity: 				0;
+	z-index: 				-999999;
+	background-color: 		rgba(0, 0, 0, 0.9);
+	-webkit-transition:		all 0.5s;
+	-moz-transition:		all 0.5s;
+	transition: 			all 0.5s;
+	
+}
+div#fms-photo-viewer.open {
+
+	visibility: 			visible;
+	opacity: 				1;
+	z-index: 				999999;
+	pointer-events: 		auto;
+}
+div#fms-photo-viewer > div.lightbox-btn {
+
+	width: 					60px;
+	height: 				60px;
+	line-height: 			60px;
+	position: 				absolute;
+	text-align: 			center;
+	font-size: 				20px;
+	cursor: 				pointer;
+	z-index: 				2;
+}
+div#fms-photo-viewer > div.lightbox-btn > i {
+	
+	color: 					#fff;
+}
+div#fms-photo-viewer > div#close-btn {
+	
+	top:					0px;
+	right:					0px;
+}
+div#fms-photo-viewer > div#next-btn {
+
+	right:					0px;
+	top:					50%;
+	transform: 				translateY(-50%);
+	-webkit-transform: 		translateY(-50%);	
+}
+div#fms-photo-viewer > div#prev-btn {
+	
+	left:					0px;
+	top:					50%;
+	transform: 				translateY(-50%);
+	-webkit-transform: 		translateY(-50%);
+}
+div#fms-photo-viewer > img#big-photo {
+	
+	display:				block;
+	max-width: 				100%;
+	max-height: 			100%;
+	position:				absolute;
+	top:					50%;
+	left:					50%;
+	transform: 				translate(-50%, -50%);
+	-webkit-transform: 		translate(-50%, -50%);
+}
+
+/* MAPPING PARTS (COMPONENT) */
+
+div#fms-listing-map {
+	
+	width:					100%;
+	height:					400px;
+}
+
+div#fms-listing-map img {
+	
+	max-width:				none !important;
+}
+
+/* THE CLICKWRAP (COMPONENT) */
+
+div#fms-crea-clickwrap {
+							
+	width:					100%;
+	height:					100%;
+	position:				fixed;
+	top: 					0px;
+	bottom: 				0px;
+	left: 					0px;
+	right: 					0px;
+	visibility: 			hidden;
+	opacity: 				0;
+	z-index: 				-999999;
+	transition: 			all 500ms;
+	overflow:				auto;
+	background-color: 		rgba(0, 0, 0, 0.9);
+	
+	pointer-events: 		all;
+	
+	-webkit-overflow-scrolling: touch;
+}
+div#fms-crea-clickwrap * {
+	
+	box-sizing: 			border-box;
+}
+div#fms-crea-clickwrap *.fms-clickwrp-heading {
+	
+	font-size: 				1.5rem;
+	line-height: 			2rem;
+	margin-bottom:			1.5rem;
+}
+div#fms-crea-clickwrap *.fms-clickwrp-paragraph {
+	
+	margin-bottom:			1.5rem;
+}
+div#fms-crea-clickwrap.open {
+
+	visibility: 			visible;
+	opacity: 				1;
+	z-index: 				999999;
+}
+div#fms-crea-clickwrap div.fms-clickwrap-content {
+	
+	width:					1000px;
+	max-width: 				100%;
+	margin:					auto;
+	padding: 				60px 20px 60px 20px;
+	color:					rgba(255, 255, 255, 0.8);
+}
+div#fms-crea-clickwrap div.fms-clickwrap-section {
+	
+	margin-bottom:			1.5rem;
+}
+div#fms-crea-clickwrap div.fms-clickwrap-section.fms-button-container {
+	
+	font-size: 				0px;
+}
+div#fms-crea-clickwrap div.fms-clickwrap-section.fms-button-container button {
+	
+	margin-right:			1px;
+}
+
+/* SEARCH BOXES (WIDGET) */
+
+div#fms-remote-search-box {
+						
+	width:					100%;
+	height:					auto;
+	box-sizing: 			border-box;
+}
+div#fms-remote-search-box form.fms-search-form {
+	
+	width:					100%;
+	height:					auto;
+	position: 				relative;
+	box-sizing: 			border-box;
+}
+div#fms-remote-search-box form.fms-search-form * {
+	
+	box-sizing: 			border-box;
+}
+div#fms-remote-search-box form.fms-search-form input[type=text],
+div#fms-remote-search-box form.fms-search-form div.styled-select > select {
+	
+	-webkit-appearance: 	none;
+	-moz-appearance: 		none;
+	border: 				none;
+	border-radius: 			0px;
+	box-shadow: 			none;
+	text-shadow: 			none;
+}
+div#fms-remote-search-box form.fms-search-form input[type=text],
+div#fms-remote-search-box form.fms-search-form div.styled-select {
+	
+	width:					100%;
+	display: 				block;
+	position: 				relative;
+	height:					50px;
+	padding:				15px;
+	margin:					0px 0px 10px 0px;
+	
+	background-color:	 	#fff; 	
+	color:					rgba(0, 0, 0, 0.8);		
+}
+div#fms-remote-search-box form.fms-search-form *::-webkit-input-placeholder {
+	
+	color:					rgba(0, 0, 0, 0.4);	
+}
+div#fms-remote-search-box form.fms-search-form *::-moz-placeholder {
+	
+	color:					rgba(0, 0, 0, 0.4);	
+}
+div#fms-remote-search-box form.fms-search-form *:-ms-input-placeholder {
+	
+	color:					rgba(0, 0, 0, 0.4);	
+}
+div#fms-remote-search-box form.fms-search-form *:-moz-placeholder {
+	
+	color:					rgba(0, 0, 0, 0.4);	
+}
+div#fms-remote-search-box form.fms-search-form div.styled-select > select {
+	
+	margin:					0px;
+	padding:				inherit;
+	background: 			transparent;
+	position: 				absolute;
+	top:					0px;
+	bottom:					0px;
+	left:					0px;
+	right:					0px;
+	width:					100%;
+	height:					100%;
+	z-index: 				1;
+	cursor: 				pointer;
+}					
+div#fms-remote-search-box form.fms-search-form div.styled-select > i {
+
+	width:					30px;
+	display: 				inline-block;
+	text-align: 			center;
+	font-size: 				14px;
+	position: 				absolute;	
+	top: 					50%;
+	transform: 				translateY(-50%);
+	-webkit-transform:		translateY(-50%);
+	right: 					0px;
+	z-index: 				0;
+	color:					inherit;
+}
+div#fms-remote-search-box form.fms-search-form input[type=text],
+div#fms-remote-search-box form.fms-search-form div.styled-select > select {
+	
+	outline:				1px solid rgba(0, 0, 0, 0.4);
+	outline-offset: 		0px;
+}
+div#fms-remote-search-box form.fms-search-form input[type=text]:focus,
+div#fms-remote-search-box form.fms-search-form div.styled-select > select:focus {
+	
+	outline:				1px solid rgba(0, 0, 0, 0.8);
+	outline-offset: 		0px;
+}
+div#fms-remote-search-box form.fms-search-form div.form-section {
+	
+	margin:					0px 0px 20px 0px;
+}
+div#fms-remote-search-box form.fms-search-form div#advanced-search {
+	
+	display:				none;
+}
+div#fms-remote-search-box form.fms-search-form *.missing-required {
+	
+	outline:				1px solid rgba(255, 0, 0, 0.4) !important;
+	outline-offset: 		0px;
+}
+div#fms-remote-search-box form.fms-search-form div.form-button-container {
+	
+	font-size: 				0px;
+}
+div#fms-remote-search-box form.fms-search-form button#submit {
+	
+	width:					calc(100% - 51px);
+}
+div#fms-remote-search-box form.fms-search-form button#clear {
+	
+	width:					50px;
+	margin-left:			1px;
+}
+
+/* REUSABLE PARTS - THE TRADEMARK CONTAINER */
+
+div.fms-trademark-container {
+	
+	font-size: 				0px;
+}
+div.fms-trademark-container div.tm {
+	
+	font-size: 				1rem;
+	width:					180px;
+	display:				inline-block;
+	vertical-align: 		top;
+	padding-bottom: 		20px;
+	font-size: 				8px;
+	line-height: 			12px;
+	font-weight: 			bold;
+	max-width:				calc(50% - 10px);
+}
+div.fms-trademark-container div.tm span {
+	
+	font-family: 			"firstlookregular";
+	font-size: 				60px;
+	line-height: 			60px;
+	font-weight: 			normal;
+}
+div.fms-trademark-container div.tm:not(:last-child) {
+
+	margin-right:			10px;
+}
+div.fms-trademark-container div.tm:not(:first-child) {
+	
+	border-left:			1px solid;
+	margin-left:			10px;
+	padding-left:			20px;
+}
+div.fms-trademark-container a,
+div.fms-trademark-container a:hover {
+	
+	display: 				inline-block;
+	color:					inherit;
+	text-decoration: 		none;
+	box-shadow: 			none;
+	-webkit-box-shadow: 	none;
+	text-shadow: 			none;
+}
+
+/* REUSABLE PARTS - BUTTON CONTROLS */
+
+button.fms-button,
+button.fms-button:hover {
+	
+	display:				inline-block;
+	width:					auto;
+	height:					50px;
+	line-height: 			50px;
+	position:				relative;
+	padding: 				0px 15px 0px 15px;
+	background:		 		none;
+	font-size: 				16px;
+	font-weight: 			normal;
+	text-transform: 		uppercase;
+	cursor:					pointer;
+	border-radius: 			0px;
+	border:					none;
+	box-shadow: 			none;
+	text-shadow: 			none;
+	z-index: 				0;
+	background: 			none;
+	letter-spacing: 		normal;
+	background-color: 		#949494;
+}
+button.fms-button i {
+	
+	font-size: 				20px;
+}
+button.fms-button a {
+	
+	color:					#fff;
+}
+button.fms-button:focus {
+	
+	outline:				none;
+}
+button.fms-button::after {
+	
+	content: 				"";
+	display:				block;
+	position: 				absolute;
+	top:					0px;
+	right:					0px;
+	bottom:					0px;
+	left:					0px;
+	opacity: 				0;
+	z-index: 				-1;
+	background: 			none;
+	background-color: 		#000;
+	-webkit-transition:		all 0.5s;
+	-moz-transition:		all 0.5s;
+	transition: 			all 0.5s;
+}
+button.fms-button:hover:after {
+	
+	opacity:				0.5;
+}
+button.fms-button:focus:after {
+	
+	opacity:				0.5;
+}
+
+
+
+
+/* Shortcode Display*/
+/******************************************************************/
+
+div.fms-listing-grid {
+	
+	margin:					-5px;
+	margin-bottom:			1rem;
+	font-size: 				0px;
+}
+div.fms-grid-card {
+	
+	min-width: 				250px;
+	display: 				inline-block;
+	vertical-align: 		top;
+	margin:					5px;
+	padding:				5px;
+	font-size: 				1rem;
+	
+	background-color: 		#efefef;
+}
+div.fms-grid-card-photo {
+	
+	width:					100%;
+	height:					200px;
+	background-size: 		cover;
+	background-repeat: 		no-repeat;
+	background-position: 	center center;
+	position:				relative;	
+	margin-bottom:			0.6rem;
+}
+div.fms-grid-status-banner {
+	
+	position:				absolute;
+	bottom:					0px;
+	width:					100%;
+	text-align: 			center;
+	color:					#fff;
+	background-color: 		rgba(148, 148, 148, 0.8); /* #949494 */
+}
+div.fms-grid-price {
+	
+	text-align: 			center;
+	font-weight: 			bold;
+	margin-bottom:			0.6rem;
+}
+div.fms-grid-bedbath {
+	
+	text-align: 			center;
+	font-size: 				0.8rem;
+	margin-bottom:			0.6rem;
+}
+
+/******************************************************************/
+
+

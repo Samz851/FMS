@@ -1,0 +1,158 @@
+2019-02-01 05:37:31		> Starting CREA DDF® Member Feed sync.
+2019-02-01 05:37:31		Fetching member feed(s): 28500
+2019-02-01 05:37:31		Scanning DDF Mirror.
+2019-02-01 05:37:36		Authorization failed! [cURL error 28: Connection timed out after 5000 milliseconds]
+2019-02-01 05:37:36		Retrying [Attempt 2 / 3]
+2019-02-01 05:37:41		Authorization failed! [cURL error 28: Connection timed out after 5000 milliseconds]
+2019-02-01 05:37:41		Retrying [Attempt 3 / 3]
+2019-02-01 05:37:46		Authorization failed! [cURL error 28: Connection timed out after 5000 milliseconds]
+2019-02-01 05:37:46		DDF fetch returned no data.
+2019-02-01 05:37:46		Fetch did not exit cleanly, listings will not be altered.
+2019-02-01 05:37:46		CREA DDF® Member Feed sync complete!
+
+
+2019-02-01 00:37:46		> Starting OREB Member Feed sync.
+2019-02-01 00:37:46		Fetching member feed(s): BROWNLS
+2019-02-01 00:37:46		Scanning OREB Database.
+2019-02-01 00:39:08		Found 36 total results.
+2019-02-01 00:39:08		OREB listing with status 6 will be ignored.
+2019-02-01 00:39:08		OREB listing with status 6 will be ignored.
+2019-02-01 00:39:08		OREB listing with status 6 will be ignored.
+2019-02-01 00:39:08		OREB listing with status 6 will be ignored.
+2019-02-01 00:39:08		OREB listing with status 6 will be ignored.
+2019-02-01 00:39:08		OREB listing with status 6 will be ignored.
+2019-02-01 00:39:08		OREB fetch complete!
+2019-02-01 00:39:08		Caching listings...
+2019-02-01 00:39:08		Creating new listing post for 1308 THAMES Street Unit#204 (MLS-1067623, KEY-25276531)
+2019-02-01 00:39:08		New ID created (ID-84)
+2019-02-01 00:39:08		Syncing photos for listing MLS-1067623 (KEY-25276531, ID-84).
+2019-02-01 00:39:08		Downloaded 21 photos.
+2019-02-01 00:39:08		Creating new listing post for 29 COLDSTREAM Drive (MLS-1078366, KEY-25627567)
+2019-02-01 00:39:09		New ID created (ID-85)
+2019-02-01 00:39:09		Syncing photos for listing MLS-1078366 (KEY-25627567, ID-85).
+2019-02-01 00:39:09		Downloaded 27 photos.
+2019-02-01 00:39:09		Creating new listing post for 503 MAZARI Crescent (MLS-1079960, KEY-25689652)
+2019-02-01 00:39:09		New ID created (ID-86)
+2019-02-01 00:39:09		Syncing photos for listing MLS-1079960 (KEY-25689652, ID-86).
+2019-02-01 00:39:10		Downloaded 30 photos.
+2019-02-01 00:39:10		Creating new listing post for 127 HARMATTAN Avenue (MLS-1083030, KEY-25814060)
+2019-02-01 00:39:10		New ID created (ID-87)
+2019-02-01 00:39:10		Syncing photos for listing MLS-1083030 (KEY-25814060, ID-87).
+2019-02-01 00:39:10		Downloaded 30 photos.
+2019-02-01 00:39:10		Creating new listing post for 457 CAVESSON Street (MLS-1083049, KEY-25814513)
+2019-02-01 00:39:11		New ID created (ID-88)
+2019-02-01 00:39:11		Syncing photos for listing MLS-1083049 (KEY-25814513, ID-88).
+2019-02-01 00:39:11		Downloaded 30 photos.
+2019-02-01 00:39:11		Creating new listing post for 35 MURRAY Street Unit#508 (MLS-1086135, KEY-25943300)
+2019-02-01 00:39:11		New ID created (ID-89)
+2019-02-01 00:39:11		Syncing photos for listing MLS-1086135 (KEY-25943300, ID-89).
+2019-02-01 00:39:12		Downloaded 30 photos.
+2019-02-01 00:39:12		Creating new listing post for 2063 JASMINE Crescent Unit#67 (MLS-1086138, KEY-25943305)
+2019-02-01 00:39:12		New ID created (ID-90)
+2019-02-01 00:39:12		Syncing photos for listing MLS-1086138 (KEY-25943305, ID-90).
+2019-02-01 00:39:13		Downloaded 30 photos.
+2019-02-01 00:39:13		Creating new listing post for 2247 REMBRANDT Road (MLS-1094014, KEY-26206658)
+2019-02-01 00:39:13		New ID created (ID-91)
+2019-02-01 00:39:13		Syncing photos for listing MLS-1094014 (KEY-26206658, ID-91).
+2019-02-01 00:39:14		Downloaded 29 photos.
+2019-02-01 00:39:14		Creating new listing post for 58 SIROCCO Crescent (MLS-1094172, KEY-26212944)
+2019-02-01 00:39:14		New ID created (ID-92)
+2019-02-01 00:39:14		Syncing photos for listing MLS-1094172 (KEY-26212944, ID-92).
+2019-02-01 00:39:14		Downloaded 29 photos.
+2019-02-01 00:39:14		Creating new listing post for 164 CENTREPOINTE Drive (MLS-1094657, KEY-26229461)
+2019-02-01 00:39:15		New ID created (ID-93)
+2019-02-01 00:39:15		Syncing photos for listing MLS-1094657 (KEY-26229461, ID-93).
+2019-02-01 00:39:15		Downloaded 30 photos.
+2019-02-01 00:39:15		Creating new listing post for 1 BELIVEAU Street (MLS-1098641, KEY-26351070)
+2019-02-01 00:39:15		New ID created (ID-94)
+2019-02-01 00:39:15		Syncing photos for listing MLS-1098641 (KEY-26351070, ID-94).
+2019-02-01 00:39:16		Downloaded 30 photos.
+2019-02-01 00:39:16		Creating new listing post for 33 WENDELL Avenue (MLS-1100621, KEY-26426981)
+2019-02-01 00:39:16		New ID created (ID-95)
+2019-02-01 00:39:16		Syncing photos for listing MLS-1100621 (KEY-26426981, ID-95).
+2019-02-01 00:39:16		Downloaded 23 photos.
+2019-02-01 00:39:16		Creating new listing post for 32 CHANTILLY Gate (MLS-1100671, KEY-26428653)
+2019-02-01 00:39:17		New ID created (ID-96)
+2019-02-01 00:39:17		Syncing photos for listing MLS-1100671 (KEY-26428653, ID-96).
+2019-02-01 00:39:17		Downloaded 28 photos.
+2019-02-01 00:39:17		Creating new listing post for 37 TAMARACK Circle (MLS-1103980, KEY-26530471)
+2019-02-01 00:39:17		New ID created (ID-97)
+2019-02-01 00:39:17		Syncing photos for listing MLS-1103980 (KEY-26530471, ID-97).
+2019-02-01 00:39:18		Downloaded 27 photos.
+2019-02-01 00:39:18		Creating new listing post for 196 ST MALO Place (MLS-1107251, KEY-26659576)
+2019-02-01 00:39:18		New ID created (ID-98)
+2019-02-01 00:39:18		Syncing photos for listing MLS-1107251 (KEY-26659576, ID-98).
+2019-02-01 00:39:19		Downloaded 29 photos.
+2019-02-01 00:39:19		Creating new listing post for 453 MEADOWBREEZE Drive (MLS-1107510, KEY-26669208)
+2019-02-01 00:39:19		New ID created (ID-99)
+2019-02-01 00:39:19		Syncing photos for listing MLS-1107510 (KEY-26669208, ID-99).
+2019-02-01 00:39:19		Downloaded 29 photos.
+2019-02-01 00:39:19		Creating new listing post for 509 TESKIWA Crescent (MLS-1108585, KEY-26713394)
+2019-02-01 00:39:19		New ID created (ID-100)
+2019-02-01 00:39:19		Syncing photos for listing MLS-1108585 (KEY-26713394, ID-100).
+2019-02-01 00:39:20		Downloaded 28 photos.
+2019-02-01 00:39:20		Creating new listing post for 107 RUSTWOOD Private (MLS-1109941, KEY-26768769)
+2019-02-01 00:39:20		New ID created (ID-101)
+2019-02-01 00:39:20		Syncing photos for listing MLS-1109941 (KEY-26768769, ID-101).
+2019-02-01 00:39:21		Downloaded 29 photos.
+2019-02-01 00:39:21		Creating new listing post for 255 MEADOWLILLY Road Unit#A (MLS-1110785, KEY-26806527)
+2019-02-01 00:39:21		New ID created (ID-102)
+2019-02-01 00:39:21		Syncing photos for listing MLS-1110785 (KEY-26806527, ID-102).
+2019-02-01 00:39:22		Downloaded 30 photos.
+2019-02-01 00:39:22		Creating new listing post for 255 MEADOWLILLY Road Unit#A (MLS-1116975, KEY-27067937)
+2019-02-01 00:39:22		New ID created (ID-103)
+2019-02-01 00:39:22		Syncing photos for listing MLS-1116975 (KEY-27067937, ID-103).
+2019-02-01 00:39:22		Downloaded 28 photos.
+2019-02-01 00:39:22		Creating new listing post for 3389 MCCARTHY Road (MLS-1124689, KEY-27336648)
+2019-02-01 00:39:22		New ID created (ID-104)
+2019-02-01 00:39:22		Syncing photos for listing MLS-1124689 (KEY-27336648, ID-104).
+2019-02-01 00:39:23		Downloaded 30 photos.
+2019-02-01 00:39:23		Creating new listing post for 16 RENSHAW Avenue (MLS-1126136, KEY-27404179)
+2019-02-01 00:39:23		New ID created (ID-105)
+2019-02-01 00:39:23		Syncing photos for listing MLS-1126136 (KEY-27404179, ID-105).
+2019-02-01 00:39:24		Downloaded 28 photos.
+2019-02-01 00:39:24		Creating new listing post for 1760 GAGE Crescent (MLS-1131012, KEY-27566303)
+2019-02-01 00:39:24		New ID created (ID-106)
+2019-02-01 00:39:24		Syncing photos for listing MLS-1131012 (KEY-27566303, ID-106).
+2019-02-01 00:39:24		Downloaded 26 photos.
+2019-02-01 00:39:24		Creating new listing post for 67 HOBIN Street (MLS-1135713, KEY-27770865)
+2019-02-01 00:39:24		New ID created (ID-107)
+2019-02-01 00:39:24		Syncing photos for listing MLS-1135713 (KEY-27770865, ID-107).
+2019-02-01 00:39:25		Downloaded 30 photos.
+2019-02-01 00:39:25		Creating new listing post for 1081 AMBLESIDE Drive Unit#1905 (MLS-1135728, KEY-27771217)
+2019-02-01 00:39:25		New ID created (ID-108)
+2019-02-01 00:39:25		Syncing photos for listing MLS-1135728 (KEY-27771217, ID-108).
+2019-02-01 00:39:26		Downloaded 24 photos.
+2019-02-01 00:39:26		Creating new listing post for 627 PINE VISTA Drive (MLS-1136152, KEY-27785625)
+2019-02-01 00:39:26		New ID created (ID-109)
+2019-02-01 00:39:26		Syncing photos for listing MLS-1136152 (KEY-27785625, ID-109).
+2019-02-01 00:39:26		Downloaded 27 photos.
+2019-02-01 00:39:26		Creating new listing post for 744 BORTHWICK Avenue (MLS-1136751, KEY-27807055)
+2019-02-01 00:39:26		New ID created (ID-110)
+2019-02-01 00:39:26		Syncing photos for listing MLS-1136751 (KEY-27807055, ID-110).
+2019-02-01 00:39:27		Downloaded 22 photos.
+2019-02-01 00:39:27		Creating new listing post for 502 RICHARDSON Avenue (MLS-1137681, KEY-27841303)
+2019-02-01 00:39:27		New ID created (ID-111)
+2019-02-01 00:39:27		Syncing photos for listing MLS-1137681 (KEY-27841303, ID-111).
+2019-02-01 00:39:27		Downloaded 25 photos.
+2019-02-01 00:39:27		Creating new listing post for 502 RICHARDSON Avenue (MLS-1137686, KEY-27841402)
+2019-02-01 00:39:28		New ID created (ID-112)
+2019-02-01 00:39:28		Syncing photos for listing MLS-1137686 (KEY-27841402, ID-112).
+2019-02-01 00:39:28		Downloaded 30 photos.
+2019-02-01 00:39:28		Creating new listing post for 9 FRANKLIN CATHCART Crescent (MLS-1137689, KEY-27841535)
+2019-02-01 00:39:29		New ID created (ID-113)
+2019-02-01 00:39:29		Syncing photos for listing MLS-1137689 (KEY-27841535, ID-113).
+2019-02-01 00:39:29		Downloaded 26 photos.
+2019-02-01 00:39:30		OREB cleanup finished.
+2019-02-01 00:39:30		Running cleanup routines.
+2019-02-01 00:39:30		Cleaning up photo folders.
+2019-02-01 00:39:30		Listing KEY-25499580 is no longer in the database, so its photos will be deleted.
+2019-02-01 00:39:30		Listing KEY-25601862 is no longer in the database, so its photos will be deleted.
+2019-02-01 00:39:30		Listing KEY-26081238 is no longer in the database, so its photos will be deleted.
+2019-02-01 00:39:30		Listing KEY-26530101 is no longer in the database, so its photos will be deleted.
+2019-02-01 00:39:30		Listing KEY-27043795 is no longer in the database, so its photos will be deleted.
+2019-02-01 00:39:30		Listing KEY-27566110 is no longer in the database, so its photos will be deleted.
+2019-02-01 00:39:30		Cleanup finished.
+2019-02-01 00:39:30		OREB Member Feed sync complete!
+
+
